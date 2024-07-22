@@ -1,12 +1,9 @@
-add_core = MAC
-#add_core = CHI
-#add_core = GNG
-#add_core = GXI
-#add_core = TPG
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = coal #silk
 life_rating = 32
-owner = MAC
-controller = MAC
+
 fort = 1
 1861.1.1 = { 
 	naval_base = 1

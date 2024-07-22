@@ -1,7 +1,9 @@
-owner = RUS
-controller = RUS
+owner = MCK
+controller = MCK
+add_core = MCK
 add_core = RUS
 add_core = MGL
+add_core = RUS
 trade_goods = grain
 life_rating = 35
 

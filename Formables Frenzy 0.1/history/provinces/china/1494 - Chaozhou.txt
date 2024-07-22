@@ -1,10 +1,6 @@
-owner = HOG
-controller = HOG
-add_core = HOG
-#add_core = CHI
-#add_core = TPG
-#add_core = GNG
-#add_core = GXI
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = fish #silk
 life_rating = 32
 

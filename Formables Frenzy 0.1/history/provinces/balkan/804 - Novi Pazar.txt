@@ -1,6 +1,5 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = SER
+controller = SER
 add_core = SER
 
 trade_goods = iron

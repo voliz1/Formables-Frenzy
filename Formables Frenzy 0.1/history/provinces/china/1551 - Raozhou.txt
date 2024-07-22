@@ -1,9 +1,6 @@
-owner = NIN
-controller = NIN
-add_core = NIN
-#add_core = CHI
-#add_core = GXI
-#add_core = TPG
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = iron #timber
 life_rating = 32
 

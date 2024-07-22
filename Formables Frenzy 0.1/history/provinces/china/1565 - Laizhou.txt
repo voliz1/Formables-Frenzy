@@ -1,7 +1,6 @@
-owner = QIN
-controller = QIN
-add_core = QIN
-#add_core = CHI
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = cotton
 life_rating = 32
 1861.1.1 = {

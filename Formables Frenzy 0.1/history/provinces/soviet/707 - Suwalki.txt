@@ -1,9 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = PLC
-#add_core = PLC
-#add_core = CPL
+owner = LIT
+controller = LIT
 add_core = LIT
+add_core = PLC
 trade_goods = grain
 life_rating = 38 #35
 

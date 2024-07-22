@@ -1,9 +1,9 @@
-owner = RUS
-controller = RUS
+owner = FIN
+controller = FIN
+add_core = FIN
 add_core = RUS
-add_core = LAT
-#add_core = UBD
-#add_core = PLC
+add_core = UBD
+add_core = PLC
 trade_goods = fish
 life_rating = 35
 naval_base = 2

@@ -1,6 +1,5 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = SER
+controller = SER
 add_core = SER
 add_core = HUN
 

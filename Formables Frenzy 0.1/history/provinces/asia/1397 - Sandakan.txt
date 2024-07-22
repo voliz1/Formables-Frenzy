@@ -1,6 +1,6 @@
 owner = PHL
 controller = PHL
 add_core = PHL
-trade_goods = tea
-life_rating = 32
 
+trade_goods = grain
+life_rating = 15

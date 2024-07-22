@@ -1,5 +1,5 @@
-owner = BRU
-controller = BRU
+owner = PHL
+controller = PHL
 add_core = BRU
 trade_goods = coffee
 life_rating = 30

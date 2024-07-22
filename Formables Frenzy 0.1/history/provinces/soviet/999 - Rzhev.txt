@@ -1,6 +1,9 @@
-owner = RUS
-controller = RUS
+owner = LIT
+controller = LIT
+add_core = LIT
+add_core = PLC
 add_core = RUS
+add_core = BYE
 trade_goods = timber
 life_rating = 35
 

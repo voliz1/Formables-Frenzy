@@ -1,5 +1,7 @@
 trade_goods = coal
-add_core = RUS
+owner = KOK
+controller = KOK
+add_core = KOK
 life_rating = 25
 1861.1.1 = {
 	owner = RUS

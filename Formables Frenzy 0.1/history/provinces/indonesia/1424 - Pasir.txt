@@ -1,5 +1,5 @@
-owner = NET
-controller = NET
+owner = PHL
+controller = PHL
 add_core = KLM
 #add_core = INO
 trade_goods = sulphur

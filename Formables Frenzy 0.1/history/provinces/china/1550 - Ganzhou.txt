@@ -1,9 +1,6 @@
-owner = HOG
-controller = HOG
-add_core = HOG
-#add_core = CHI
-#add_core = GXI
-#add_core = TPG
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = coal
 life_rating = 32
 

@@ -1,4 +1,6 @@
-add_core = RUS
+owner = KOK
+controller = KOK
+add_core = KOK
 trade_goods = coal
 life_rating = 25
 1861.1.1 = {
