@@ -1,0 +1,110 @@
+political_decisions = {
+diplomacy_points = {
+		picture = ce
+		potential = {
+			has_country_flag = showing_host_decisions
+			has_country_flag = host_nation
+			NOT = {
+				has_country_modifier = diplomacy_points
+			}
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+		add_country_modifier = {
+				name = diplomacy_points
+				duration = -1
+		}
+	}
+}
+
+state_korea = {
+		potential = {
+			tag = GHO
+			JAP = { owns = 1624 }
+			JAP = { owns = 1625 }
+			JAP = { owns = 1619 }
+			JAP = { owns = 1632 }
+			NOT = { has_country_flag = stated_korea }
+		}
+		allow = {
+		}
+		effect = {
+		JAP = {
+			country_event = { id=499001 days=0 }
+		}
+			set_country_flag = stated_korea
+			set_country_flag = stated_korea2
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+
+	state_korea3 = {
+		potential = {
+			tag = KOR
+			KOR = { owns = 1624 }
+			KOR = { owns = 1625 }
+			KOR = { owns = 1619 }
+			KOR = { owns = 1632 }
+			NOT = { has_global_flag = stated_korea2 }
+			has_global_flag = stated_korea
+		}
+		allow = {
+		}
+		effect = {
+		1620 = { secede_province = JAP change_controller = JAP }
+        1623 = { secede_province = JAP change_controller = JAP }
+        1622 = { secede_province = JAP change_controller = JAP }
+        3285 = { secede_province = JAP change_controller = JAP }
+        1621 = { secede_province = JAP change_controller = JAP }
+        1619 = { secede_province = JAP change_controller = JAP }
+        1627 = { secede_province = JAP change_controller = JAP }
+        1625 = { secede_province = JAP change_controller = JAP }
+        1629 = { secede_province = JAP change_controller = JAP }
+        1626 = { secede_province = JAP change_controller = JAP }
+        1628 = { secede_province = JAP change_controller = JAP }
+        1624 = { secede_province = JAP change_controller = JAP }
+        1630 = { secede_province = JAP change_controller = JAP }
+        1631 = { secede_province = JAP change_controller = JAP }
+        1636 = { secede_province = JAP change_controller = JAP }
+        1635 = { secede_province = JAP change_controller = JAP }
+        1632 = { secede_province = JAP change_controller = JAP }
+        1633 = { secede_province = JAP change_controller = JAP }
+        1634 = { secede_province = JAP change_controller = JAP }
+        1637 = { secede_province = JAP change_controller = JAP }       
+			set_global_flag = stated_korea2
+			JAP = {
+			country_event = { id=499000 days=0 }
+		}
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+
+	credits = {
+		potential = {
+			tag = GHO
+			NOT = { has_global_flag = creditsfired }
+		}
+		allow = {
+		}
+		effect = {
+		any_country = {
+				limit = {
+					ai = no
+				}
+				country_event = 60168151
+			}
+			set_global_flag = creditsfired
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+}

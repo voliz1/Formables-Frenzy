@@ -1,0 +1,195 @@
+#Leaders
+
+
+army = {
+	name = "The Jaipur Army"
+	location = 1268
+	regiment = {
+		name= "1.2nd Cavalry Division"
+		type = infantry
+		home = 1278
+	}
+
+	regiment = {
+		name= "2.2nd Cavalry Division"
+		type = infantry
+		home = 1283
+	}
+
+	regiment = {
+		name= "3.2nd Cavalry Division"
+		type = hussar
+		home = 1284
+	}
+
+	regiment = {
+		name= "1.11th Division"
+		type = infantry
+		home = 1268
+	}
+
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 1268
+	}
+
+	regiment = {
+		name= "3.11th Division"
+		type = artillery
+		home = 1269
+	}
+
+	regiment = {
+		name= "1.12th Division"
+		type = artillery
+		home = 1269
+	}
+
+	regiment = {
+		name= "2.12th Division"
+		type = artillery
+		home = 1266
+	}
+
+	regiment = {
+		name= "3.12th Division"
+		type = artillery
+		home = 1266
+	}
+	
+	regiment = {
+		name= "1.5th Indian Division"
+		type = artillery
+		home = 1294
+	}
+}
+
+
+army = {
+	name = "The Patan Army"
+	location = 1294
+	regiment = {
+		name= "1.2nd Cavalry Division"
+		type = infantry
+		home = 1292
+	}
+
+	regiment = {
+		name= "2.2nd Cavalry Division"
+		type = infantry
+		home = 1295
+	}
+
+	regiment = {
+		name= "3.2nd Cavalry Division"
+		type = hussar
+		home = 1295
+	}
+
+	regiment = {
+		name= "1.11th Division"
+		type = infantry
+		home = 1271
+	}
+
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 1262
+	}
+
+	regiment = {
+		name= "3.11th Division"
+		type = artillery
+		home = 1274
+	}
+
+	regiment = {
+		name= "1.12th Division"
+		type = artillery
+		home = 1267
+	}
+
+	regiment = {
+		name= "2.12th Division"
+		type = artillery
+		home = 1279
+	}
+
+	regiment = {
+		name= "3.12th Division"
+		type = artillery
+		home = 1244
+	}
+	
+	regiment = {
+		name= "1.5th Indian Division"
+		type = artillery
+		home = 1319
+	}
+}
+
+army = {
+	name = "The Hyderabad Army"
+	location = 1287
+	regiment = {
+		name= "1.2nd Cavalry Division"
+		type = infantry
+		home = 1318
+	}
+
+	regiment = {
+		name= "2.2nd Cavalry Division"
+		type = infantry
+		home = 1319
+	}
+
+	regiment = {
+		name= "3.2nd Cavalry Division"
+		type = hussar
+		home = 1313
+	}
+
+	regiment = {
+		name= "1.11th Division"
+		type = infantry
+		home = 1314
+	}
+
+	regiment = {
+		name= "2.11th Division"
+		type = infantry
+		home = 1267
+	}
+
+	regiment = {
+		name= "3.11th Division"
+		type = artillery
+		home = 1267
+	}
+
+	regiment = {
+		name= "1.12th Division"
+		type = artillery
+		home = 1293
+	}
+
+	regiment = {
+		name= "2.12th Division"
+		type = artillery
+		home = 1270
+	}
+
+	regiment = {
+		name= "3.12th Division"
+		type = artillery
+		home = 1272
+	}
+	
+	regiment = {
+		name= "1.5th Indian Division"
+		type = artillery
+		home = 1277
+	}
+}

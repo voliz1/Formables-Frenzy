@@ -1,0 +1,7 @@
+owner = LCT
+controller = LCT
+add_core = LCT
+
+trade_goods = timber
+life_rating = 1
+

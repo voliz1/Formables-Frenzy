@@ -1,0 +1,10 @@
+EVTNAMEgivemoney;$FROMCOUNTRY$ Requests a Grant;;;;;;;;;;;;;x,,
+EVTDESCgivemoney;$FROMCOUNTRY$ has asked us for a grant. Shall we give it to them?;;;;;;;;;;;;;x,,
+Give_Nothing;Don't give anything.;;;;;;;;;;;;;x,,
+Give_0.05M_Grant;Give them ¤50,000.;;;;;;;;;;;;;x,
+Give_0.1M_Grant;Give them ¤100,000.;;;;;;;;;;;;;x,
+Give_0.25M_Grant;Give them ¤250,000.;;;;;;;;;;;;;x,
+Give_0.5M_Grant;Give them ¤500,000.;;;;;;;;;;;;;x,
+Give_1M_Grant;Give them ¤1,000,000.;;;;;;;;;;;;;x
+Give_2M_Grant;Give them ¤2,000,000.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;x,,

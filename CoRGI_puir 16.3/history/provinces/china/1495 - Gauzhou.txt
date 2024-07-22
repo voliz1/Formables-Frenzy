@@ -1,0 +1,10 @@
+owner = BEI
+controller = BEI
+add_core = BEI
+#add_core = CHI
+#add_core = TPG
+#add_core = GNG
+#add_core = GXI
+trade_goods = silk #grain
+life_rating = 32
+

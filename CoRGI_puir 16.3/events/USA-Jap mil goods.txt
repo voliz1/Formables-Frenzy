@@ -1,0 +1,63 @@
+
+country_event = {
+	id = 16452
+	title = "Fuck Around Find Out!"
+	desc = "To Arms!"
+	picture = "dixie"
+	
+ 	trigger = {
+		tag = USA
+		ENG = { war_with = USA }
+		AND = {
+	NOT = { Month = 7 }
+	NOT = { year = 1838 }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA1206" #Ok
+			small_arms = 250
+			canned_food = 250
+			artillery = 250
+			luxury_clothes = 100
+			regular_clothes = 100
+			wine = 250
+			liquor = 250
+			ammunition = 250
+			money = 150000
+	}
+}
+
+country_event = {
+	id = 16453
+	title = "Fuck Around Find Out!"
+	desc = "To Arms!"
+	picture = "dixie"
+	
+ 	trigger = {
+		tag = JAP
+		ENG = { war_with = JAP }
+		AND = {
+	NOT = { Month = 7 }
+	NOT = { year = 1838 }
+	civilized = yes
+}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA1206" #Ok
+			small_arms = 250
+			canned_food = 250
+			artillery = 250
+			luxury_clothes = 100
+			regular_clothes = 100
+			wine = 250
+			liquor = 250
+			ammunition = 250
+			money = 150000
+	}
+}
+}

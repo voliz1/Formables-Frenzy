@@ -1,0 +1,42 @@
+political_decisions = {
+	Western_entanglements = {
+		picture = unite_the_principalities
+		potential = {
+			civilized = no
+			OR = {
+				tag = BEI
+				tag = MAC
+				tag = HOG
+				tag = WEN
+				tag = NIN
+				tag = HAG
+				tag = SHA
+				tag = QNG
+				tag = QIN
+			}
+		}
+		
+		allow = {
+			part_of_sphere = yes
+			civilized = no
+			OR = {
+				tag = BEI
+				tag = MAC
+				tag = HOG
+				tag = WEN
+				tag = NIN
+				tag = HAG
+				tag = SHA
+				tag = QNG
+				tag = QIN
+			}
+		}
+		
+		effect = {
+			THIS = { civilized = yes }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,73 @@
+political_decisions = {
+	move_capital_to_delhi = {
+		picture = map_india
+		potential = {
+			tag = HND
+			owns = 1236 # Delhi
+			NOT = { capital = 1236 }
+		}	
+		
+		allow = {
+			NOT = { capital = 1236 }
+		}
+		
+		effect = {
+			capital = 1236
+			prestige = 5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	give_india_money = {
+		picture = map_india
+		alert = no
+		potential = {
+			tag = ENG
+			is_our_vassal = HND
+		}	
+		
+		allow = {
+			money = 50000
+			NOT = { has_country_modifier = give_eic }
+		}
+		
+		effect = {
+				money = -50000
+				HND = {
+					money = 50000
+				}
+				add_country_modifier = { name = give_eic duration = 7 }
+		}
+		
+		}
+
+		tax_eic = {
+		picture = levy_taxes
+		potential = {
+			is_our_vassal = HND
+		}
+		allow = {
+			war = no
+			NOT = { has_country_modifier = taxing_eic }
+		}
+		effect = {
+			add_country_modifier = { name = taxing_eic duration = 740 }
+			release_vassal = HND
+			leave_alliance = HND
+			war = {
+				target = HND
+				attacker_goal = { casus_belli = vassal_tax }
+				attacker_goal = { casus_belli = status_quo }
+			}
+			HND = {
+				set_country_flag = tax_war
+				any_owned = {
+					change_controller = ENG
+				}
+			}
+		}
+	}
+	}

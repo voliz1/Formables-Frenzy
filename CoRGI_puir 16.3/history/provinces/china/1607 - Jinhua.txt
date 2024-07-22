@@ -1,0 +1,13 @@
+owner = NIN
+controller = NIN
+add_core = NIN
+#add_core = CHI
+#add_core = TPG
+#add_core = HUI
+trade_goods = timber
+life_rating = 32
+1861.1.1 = {
+	controller = TPG
+	owner = TPG
+}
+

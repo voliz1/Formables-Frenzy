@@ -1,0 +1,10 @@
+add_core = BEI
+#add_core = CHI
+#add_core = GXI
+#add_core = TPG
+trade_goods = coal #cotton
+life_rating = 32
+
+owner = BEI
+controller = BEI
+

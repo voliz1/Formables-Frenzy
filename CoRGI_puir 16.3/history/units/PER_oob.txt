@@ -1,0 +1,146 @@
+#Leaders
+leader = {
+	name = "Mohammed Shah Qajar"
+	date = 1834.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+
+army = {
+	name = "1st Army of Persia"
+	location = 1121
+	regiment = {
+		name= "1 hussar"
+		type = hussar
+		home = 1148
+	}
+
+	regiment = {
+		name= "1 infantry"
+		type = infantry
+		home = 1121
+	}
+
+	regiment = {
+		name= "2 infantry"
+		type = infantry
+		home = 1108
+	}
+
+	regiment = {
+		name = "1 artillery"
+		type = artillery
+		home = 1111
+	}
+
+	regiment = {
+		name = "2 artillery"
+		type = artillery
+		home = 1122
+	}
+}
+
+army = {
+	name = "2nd Army of Persia"
+	location = 1132
+	regiment = {
+		name= "1 hussar"
+		type = hussar
+		home = 1114
+	}
+
+	regiment = {
+		name= "1 infantry"
+		type = infantry
+		home = 1111
+	}
+
+	regiment = {
+		name= "2 infantry"
+		type = infantry
+		home = 1121
+	}
+
+	regiment = {
+		name = "1 artillery"
+		type = artillery
+		home = 1111
+	}
+
+	regiment = {
+		name = "2 artillery"
+		type = artillery
+		home = 1122
+	}
+	
+}
+
+army = {
+	name = "3nd Army of Persia"
+	location = 1117
+	regiment = {
+		name = "3 artillery"
+		type = artillery
+		home = 1150
+	}
+	
+	regiment = {
+		name = "4 artillery"
+		type = artillery
+		home = 1137
+	}
+	
+	regiment = {
+		name = "5 artillery"
+		type = artillery
+		home = 1127
+	}
+
+	regiment = {
+		name = "3 infantry"
+		type = infantry
+		home = 1121
+	}
+
+	regiment = {
+		name = "4 infantry"
+		type = infantry
+		home = 1150
+	}
+}
+
+
+army = {
+	name = "4th Army of Persia"
+	location = 1127
+	regiment = {
+		name = "3 artillery"
+		type = artillery
+		home = 1145
+	}
+	
+	regiment = {
+		name = "4 artillery"
+		type = artillery
+		home = 1117
+	}
+	
+	regiment = {
+		name = "5 artillery"
+		type = artillery
+		home = 1127
+	}
+	regiment = {
+		name = "3 infantry"
+		type = infantry
+		home = 1129
+	}
+
+	regiment = {
+		name = "4 infantry"
+		type = infantry
+		home = 1147 
+	}
+}

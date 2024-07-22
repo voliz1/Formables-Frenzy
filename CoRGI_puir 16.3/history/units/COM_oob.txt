@@ -1,0 +1,89 @@
+army = {
+name = "Commonwealth Army"
+location = 57
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 58 
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 58 
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 46 
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 71
+}
+regiment = {
+name = "Regiment 5"
+type = artillery
+home = 65
+}
+regiment = {
+name = "Regiment 6"
+type = hussar
+home = 58 
+}
+}
+
+navy = {
+	name = "Commonwealth Navy"
+	location = 71
+	
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+}

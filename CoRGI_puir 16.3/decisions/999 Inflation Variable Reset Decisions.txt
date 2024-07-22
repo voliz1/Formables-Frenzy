@@ -1,0 +1,501 @@
+political_decisions = {    
+    Inflation_save_0_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1839 NOT = { year = 1840 } }
+            AND = { year = 1849 NOT = { year = 1850 } }
+            AND = { year = 1859 NOT = { year = 1860 } }
+            AND = { year = 1869 NOT = { year = 1870 } }
+            AND = { year = 1879 NOT = { year = 1880 } }
+            AND = { year = 1889 NOT = { year = 1890 } }
+            AND = { year = 1899 NOT = { year = 1900 } }
+            AND = { year = 1909 NOT = { year = 1910 } }
+            AND = { year = 1919 NOT = { year = 1920 } }
+            AND = { year = 1929 NOT = { year = 1930 } }
+            AND = { year = 1939 NOT = { year = 1940 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1839 NOT = { year = 1840 } }
+            AND = { year = 1849 NOT = { year = 1850 } }
+            AND = { year = 1859 NOT = { year = 1860 } }
+            AND = { year = 1869 NOT = { year = 1870 } }
+            AND = { year = 1879 NOT = { year = 1880 } }
+            AND = { year = 1889 NOT = { year = 1890 } }
+            AND = { year = 1899 NOT = { year = 1900 } }
+            AND = { year = 1909 NOT = { year = 1910 } }
+            AND = { year = 1919 NOT = { year = 1920 } }
+            AND = { year = 1929 NOT = { year = 1930 } }
+            AND = { year = 1939 NOT = { year = 1940 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_9 value = -0.001 }
+                set_variable = { which = inflation_save_0 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_1_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1840 NOT = { year = 1841 } }
+            AND = { year = 1850 NOT = { year = 1851 } }
+            AND = { year = 1860 NOT = { year = 1861 } }
+            AND = { year = 1870 NOT = { year = 1871 } }
+            AND = { year = 1880 NOT = { year = 1881 } }
+            AND = { year = 1890 NOT = { year = 1891 } }
+            AND = { year = 1900 NOT = { year = 1901 } }
+            AND = { year = 1910 NOT = { year = 1911 } }
+            AND = { year = 1920 NOT = { year = 1921 } }
+            AND = { year = 1930 NOT = { year = 1931 } }
+            AND = { year = 1940 NOT = { year = 1941 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1840 NOT = { year = 1841 } }
+            AND = { year = 1850 NOT = { year = 1851 } }
+            AND = { year = 1860 NOT = { year = 1861 } }
+            AND = { year = 1870 NOT = { year = 1871 } }
+            AND = { year = 1880 NOT = { year = 1881 } }
+            AND = { year = 1890 NOT = { year = 1891 } }
+            AND = { year = 1900 NOT = { year = 1901 } }
+            AND = { year = 1910 NOT = { year = 1911 } }
+            AND = { year = 1920 NOT = { year = 1921 } }
+            AND = { year = 1930 NOT = { year = 1931 } }
+            AND = { year = 1940 NOT = { year = 1941 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_0 value = -0.001 }
+                set_variable = { which = inflation_save_1 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_2_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1841 NOT = { year = 1842 } }
+            AND = { year = 1851 NOT = { year = 1852 } }
+            AND = { year = 1861 NOT = { year = 1862 } }
+            AND = { year = 1871 NOT = { year = 1872 } }
+            AND = { year = 1881 NOT = { year = 1882 } }
+            AND = { year = 1891 NOT = { year = 1892 } }
+            AND = { year = 1901 NOT = { year = 1902 } }
+            AND = { year = 1911 NOT = { year = 1912 } }
+            AND = { year = 1921 NOT = { year = 1922 } }
+            AND = { year = 1931 NOT = { year = 1932 } }
+            AND = { year = 1941 NOT = { year = 1942 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1841 NOT = { year = 1842 } }
+            AND = { year = 1851 NOT = { year = 1852 } }
+            AND = { year = 1861 NOT = { year = 1862 } }
+            AND = { year = 1871 NOT = { year = 1872 } }
+            AND = { year = 1881 NOT = { year = 1882 } }
+            AND = { year = 1891 NOT = { year = 1892 } }
+            AND = { year = 1901 NOT = { year = 1902 } }
+            AND = { year = 1911 NOT = { year = 1912 } }
+            AND = { year = 1921 NOT = { year = 1922 } }
+            AND = { year = 1931 NOT = { year = 1932 } }
+            AND = { year = 1941 NOT = { year = 1942 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_1 value = -0.001 }
+                set_variable = { which = inflation_save_2 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_3_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1842 NOT = { year = 1843 } }
+            AND = { year = 1852 NOT = { year = 1853 } }
+            AND = { year = 1862 NOT = { year = 1863 } }
+            AND = { year = 1872 NOT = { year = 1873 } }
+            AND = { year = 1882 NOT = { year = 1883 } }
+            AND = { year = 1892 NOT = { year = 1893 } }
+            AND = { year = 1902 NOT = { year = 1903 } }
+            AND = { year = 1912 NOT = { year = 1913 } }
+            AND = { year = 1922 NOT = { year = 1923 } }
+            AND = { year = 1932 NOT = { year = 1933 } }
+            AND = { year = 1942 NOT = { year = 1943 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1842 NOT = { year = 1843 } }
+            AND = { year = 1852 NOT = { year = 1853 } }
+            AND = { year = 1862 NOT = { year = 1863 } }
+            AND = { year = 1872 NOT = { year = 1873 } }
+            AND = { year = 1882 NOT = { year = 1883 } }
+            AND = { year = 1892 NOT = { year = 1893 } }
+            AND = { year = 1902 NOT = { year = 1903 } }
+            AND = { year = 1912 NOT = { year = 1913 } }
+            AND = { year = 1922 NOT = { year = 1923 } }
+            AND = { year = 1932 NOT = { year = 1933 } }
+            AND = { year = 1942 NOT = { year = 1943 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_2 value = -0.001 }
+                set_variable = { which = inflation_save_3 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_4_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1843 NOT = { year = 1844 } }
+            AND = { year = 1853 NOT = { year = 1854 } }
+            AND = { year = 1863 NOT = { year = 1864 } }
+            AND = { year = 1873 NOT = { year = 1874 } }
+            AND = { year = 1883 NOT = { year = 1884 } }
+            AND = { year = 1893 NOT = { year = 1894 } }
+            AND = { year = 1903 NOT = { year = 1904 } }
+            AND = { year = 1913 NOT = { year = 1914 } }
+            AND = { year = 1923 NOT = { year = 1924 } }
+            AND = { year = 1933 NOT = { year = 1934 } }
+            AND = { year = 1943 NOT = { year = 1944 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1843 NOT = { year = 1844 } }
+            AND = { year = 1853 NOT = { year = 1854 } }
+            AND = { year = 1863 NOT = { year = 1864 } }
+            AND = { year = 1873 NOT = { year = 1874 } }
+            AND = { year = 1883 NOT = { year = 1884 } }
+            AND = { year = 1893 NOT = { year = 1894 } }
+            AND = { year = 1903 NOT = { year = 1904 } }
+            AND = { year = 1913 NOT = { year = 1914 } }
+            AND = { year = 1923 NOT = { year = 1924 } }
+            AND = { year = 1933 NOT = { year = 1934 } }
+            AND = { year = 1943 NOT = { year = 1944 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_3 value = -0.001 }
+                set_variable = { which = inflation_save_4 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_5_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1844 NOT = { year = 1845 } }
+            AND = { year = 1854 NOT = { year = 1855 } }
+            AND = { year = 1864 NOT = { year = 1865 } }
+            AND = { year = 1874 NOT = { year = 1875 } }
+            AND = { year = 1884 NOT = { year = 1885 } }
+            AND = { year = 1894 NOT = { year = 1895 } }
+            AND = { year = 1904 NOT = { year = 1905 } }
+            AND = { year = 1914 NOT = { year = 1915 } }
+            AND = { year = 1924 NOT = { year = 1925 } }
+            AND = { year = 1934 NOT = { year = 1935 } }
+            AND = { year = 1944 NOT = { year = 1945 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1844 NOT = { year = 1845 } }
+            AND = { year = 1854 NOT = { year = 1855 } }
+            AND = { year = 1864 NOT = { year = 1865 } }
+            AND = { year = 1874 NOT = { year = 1875 } }
+            AND = { year = 1884 NOT = { year = 1885 } }
+            AND = { year = 1894 NOT = { year = 1895 } }
+            AND = { year = 1904 NOT = { year = 1905 } }
+            AND = { year = 1914 NOT = { year = 1915 } }
+            AND = { year = 1924 NOT = { year = 1925 } }
+            AND = { year = 1934 NOT = { year = 1935 } }
+            AND = { year = 1944 NOT = { year = 1945 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_4 value = -0.001 }
+                set_variable = { which = inflation_save_5 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_6_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1845 NOT = { year = 1846 } }
+            AND = { year = 1855 NOT = { year = 1856 } }
+            AND = { year = 1865 NOT = { year = 1866 } }
+            AND = { year = 1875 NOT = { year = 1876 } }
+            AND = { year = 1885 NOT = { year = 1886 } }
+            AND = { year = 1895 NOT = { year = 1896 } }
+            AND = { year = 1905 NOT = { year = 1906 } }
+            AND = { year = 1915 NOT = { year = 1916 } }
+            AND = { year = 1925 NOT = { year = 1926 } }
+            AND = { year = 1935 NOT = { year = 1936 } }
+            AND = { year = 1945 NOT = { year = 1946 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1845 NOT = { year = 1846 } }
+            AND = { year = 1855 NOT = { year = 1856 } }
+            AND = { year = 1865 NOT = { year = 1866 } }
+            AND = { year = 1875 NOT = { year = 1876 } }
+            AND = { year = 1885 NOT = { year = 1886 } }
+            AND = { year = 1895 NOT = { year = 1896 } }
+            AND = { year = 1905 NOT = { year = 1906 } }
+            AND = { year = 1915 NOT = { year = 1916 } }
+            AND = { year = 1925 NOT = { year = 1926 } }
+            AND = { year = 1935 NOT = { year = 1936 } }
+            AND = { year = 1945 NOT = { year = 1946 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_5 value = -0.001 }
+                set_variable = { which = inflation_save_6 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_7_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            tag = GHO
+        OR = {
+            AND = { year = 1836 NOT = { year = 1837 } }
+            AND = { year = 1846 NOT = { year = 1847 } }
+            AND = { year = 1856 NOT = { year = 1857 } }
+            AND = { year = 1866 NOT = { year = 1867 } }
+            AND = { year = 1876 NOT = { year = 1877 } }
+            AND = { year = 1886 NOT = { year = 1887 } }
+            AND = { year = 1896 NOT = { year = 1897 } }
+            AND = { year = 1906 NOT = { year = 1907 } }
+            AND = { year = 1916 NOT = { year = 1917 } }
+            AND = { year = 1926 NOT = { year = 1927 } }
+            AND = { year = 1936 NOT = { year = 1937 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1836 NOT = { year = 1837 } }
+            AND = { year = 1846 NOT = { year = 1847 } }
+            AND = { year = 1856 NOT = { year = 1857 } }
+            AND = { year = 1866 NOT = { year = 1867 } }
+            AND = { year = 1876 NOT = { year = 1877 } }
+            AND = { year = 1886 NOT = { year = 1887 } }
+            AND = { year = 1896 NOT = { year = 1897 } }
+            AND = { year = 1906 NOT = { year = 1907 } }
+            AND = { year = 1916 NOT = { year = 1917 } }
+            AND = { year = 1926 NOT = { year = 1927 } }
+            AND = { year = 1936 NOT = { year = 1937 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_6 value = -0.001 }
+                set_variable = { which = inflation_save_7 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_8_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1837 NOT = { year = 1838 } }
+            AND = { year = 1847 NOT = { year = 1848 } }
+            AND = { year = 1857 NOT = { year = 1858 } }
+            AND = { year = 1867 NOT = { year = 1868 } }
+            AND = { year = 1877 NOT = { year = 1878 } }
+            AND = { year = 1887 NOT = { year = 1888 } }
+            AND = { year = 1897 NOT = { year = 1898 } }
+            AND = { year = 1907 NOT = { year = 1908 } }
+            AND = { year = 1917 NOT = { year = 1918 } }
+            AND = { year = 1927 NOT = { year = 1928 } }
+            AND = { year = 1937 NOT = { year = 1938 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1837 NOT = { year = 1838 } }
+            AND = { year = 1847 NOT = { year = 1848 } }
+            AND = { year = 1857 NOT = { year = 1858 } }
+            AND = { year = 1867 NOT = { year = 1868 } }
+            AND = { year = 1877 NOT = { year = 1878 } }
+            AND = { year = 1887 NOT = { year = 1888 } }
+            AND = { year = 1897 NOT = { year = 1898 } }
+            AND = { year = 1907 NOT = { year = 1908 } }
+            AND = { year = 1917 NOT = { year = 1918 } }
+            AND = { year = 1927 NOT = { year = 1928 } }
+            AND = { year = 1937 NOT = { year = 1938 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_7 value = -0.001 }
+                set_variable = { which = inflation_save_8 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+    Inflation_save_9_reset = {
+        picture = unite_the_principalities
+
+        potential = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1838 NOT = { year = 1839 } }
+            AND = { year = 1848 NOT = { year = 1849 } }
+            AND = { year = 1858 NOT = { year = 1859 } }
+            AND = { year = 1868 NOT = { year = 1869 } }
+            AND = { year = 1878 NOT = { year = 1879 } }
+            AND = { year = 1888 NOT = { year = 1889 } }
+            AND = { year = 1898 NOT = { year = 1899 } }
+            AND = { year = 1908 NOT = { year = 1909 } }
+            AND = { year = 1918 NOT = { year = 1919 } }
+            AND = { year = 1928 NOT = { year = 1929 } }
+            AND = { year = 1938 NOT = { year = 1939 } }
+        }
+        }
+
+        allow = {
+            Month = 11
+            tag = GHO
+        OR = {
+            AND = { year = 1838 NOT = { year = 1839 } }
+            AND = { year = 1848 NOT = { year = 1849 } }
+            AND = { year = 1858 NOT = { year = 1859 } }
+            AND = { year = 1868 NOT = { year = 1869 } }
+            AND = { year = 1878 NOT = { year = 1879 } }
+            AND = { year = 1888 NOT = { year = 1889 } }
+            AND = { year = 1898 NOT = { year = 1899 } }
+            AND = { year = 1908 NOT = { year = 1909 } }
+            AND = { year = 1918 NOT = { year = 1919 } }
+            AND = { year = 1928 NOT = { year = 1929 } }
+            AND = { year = 1938 NOT = { year = 1939 } }
+        }
+        }
+
+        effect = {
+            LCT = {
+                change_variable = { which = inflation_save_8 value = -0.001 }
+                set_variable = { which = inflation_save_9 value = 0.001 } 
+            }
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+}

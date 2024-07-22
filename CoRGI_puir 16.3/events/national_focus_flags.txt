@@ -1,0 +1,24 @@
+country_event = {
+
+	id = 370037
+
+	trigger = {
+		invention = custom_national_focus
+		NOT = {
+			has_country_flag = tier_2
+		}
+	}
+ 
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	title = "tier_2_title"
+	desc = "tier_2_desc"
+	picture = "troy"
+
+	option = {
+		name = "Thank you, CE!"
+		set_country_flag = tier_2
+	}
+}

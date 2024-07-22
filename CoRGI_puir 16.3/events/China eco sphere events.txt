@@ -1,0 +1,529 @@
+#	3249=BEI
+#	1498=MAC
+#	1496=HOG
+#	1481=WEN
+#	1608=NIN
+#	1606=HAG
+#	1538=SHA
+#	1566=QNG
+#	1569=QIN
+#
+# Add condition for  non great power unsphered nations to trigger if they own a province and the connected eco zone is in a foreign sphere
+# Add effects that add the eco zone to sphere of any country that is not a gp owns the province and is not itself in a sphere
+#
+#
+country_event = {
+	id = 90980
+	title = "Chinese Economic Zone Aquired"
+	desc = "We have leveraged our power to aquire Economic priviliges over a region of China"
+	picture = "greatpowers"
+
+	trigger = {
+		OR = {
+			AND = {
+				NOT = { BEI = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 3249 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 3249
+						}
+					}
+				}	
+			}
+			AND = {
+				NOT = { MAC = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1498 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1498
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { HOG = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1496 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1496
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { WEN = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1481 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1481
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { NIN = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1608 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1608
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { HAG = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1606 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1606
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { SHA = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1538 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1538
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { QNG = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1566 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1566
+						}
+					}
+				}
+			}
+			AND = {
+				NOT = { QIN = { in_sphere = THIS } }
+				THIS = { 
+					OR = {
+						any_sphere_member = { owns = 1569 NOT = { tag = CHI } }
+						AND = {
+							is_greater_power = yes
+							owns = 1569
+						}
+					}
+				}
+			}
+			AND = {
+				tag = BEI
+				BEI = { part_of_sphere = yes }
+				3249 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = MAC
+				MAC = { part_of_sphere = yes }
+				1498 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = HOG
+				HOG = { part_of_sphere = yes }
+				1496 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = WEN
+				WEN = { part_of_sphere = yes }
+				1481 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = NIN
+				NIN = { part_of_sphere = yes }
+				1608 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = HAG
+				HAG = { part_of_sphere = yes }
+				1606 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = SHA
+				SHA = { part_of_sphere = yes }
+				1538 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = QNG
+				QNG = { part_of_sphere = yes }
+				1566 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}
+			AND = {
+				tag = QIN
+				QIN = { part_of_sphere = yes }
+				1569 = { owner = { NOT = { part_of_sphere = yes is_greater_power = yes } } }
+			}		
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Splendid"
+
+		any_greater_power = {
+			limit = {
+				owns = 3249			 
+			}
+		}
+		3249 = {
+			owner = {
+				diplomatic_influence = {
+					who = BEI
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 3249
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BEI
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1498			 
+			}
+		}
+		1498 = {
+			owner = {
+				diplomatic_influence = {
+					who = MAC
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1498
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MAC
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1496			 
+			}
+		}
+		1496 = {
+			owner = {
+				diplomatic_influence = {
+					who = HOG
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1496
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = HOG
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1481			 
+			}
+		}
+		1481 = {
+			owner = {
+				diplomatic_influence = {
+					who = WEN
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1481
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = WEN
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1608			 
+			}
+		}
+		1608 = {
+			owner = {
+				diplomatic_influence = {
+					who = NIN
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1608
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = NIN
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1606			 
+			}
+		}
+		1606 = {
+			owner = {
+				diplomatic_influence = {
+					who = HAG
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1606
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = HAG
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1538			 
+			}
+		}
+		1538 = {
+			owner = {
+				diplomatic_influence = {
+					who = SHA
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1538
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SHA
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1566			 
+			}
+		}
+		1566 = {
+			owner = {
+				diplomatic_influence = {
+					who = QNG
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1566
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = QNG
+					value = 400
+				}
+			}
+		}
+		any_greater_power = {
+			limit = {
+				owns = 1569			 
+			}
+		}
+		1569 = {
+			owner = {
+				diplomatic_influence = {
+					who = QIN
+					value = 400
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				owns = 1569
+				is_greater_power = no
+				NOT = { tag = CHI } 
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = QIN
+					value = 400
+				}
+			}
+		}
+		BEI = {
+			limit = {
+				part_of_sphere = yes
+				3249 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = BEI
+					value = -100
+				}
+			}
+		}
+		MAC = {
+			limit = {
+				part_of_sphere = yes
+				1498 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = MAC
+					value = -100
+				}
+			}
+		}
+		HOG = {
+			limit = {
+				part_of_sphere = yes
+				1496 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = HOG
+					value = -100
+				}
+			}
+		}
+		WEN = {
+			limit = {
+				part_of_sphere = yes
+				1481 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = WEN
+					value = -100
+				}
+			}
+		}
+		NIN = {
+			limit = {
+				part_of_sphere = yes
+				1608 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = NIN
+					value = -100
+				}
+			}
+		}
+		HAG = {
+			limit = {
+				part_of_sphere = yes
+				1606 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = HAG
+					value = -100
+				}
+			}
+		}
+		SHA = {
+			limit = {
+				part_of_sphere = yes
+				1538 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = SHA
+					value = -100
+				}
+			}
+		}
+		QNG = {
+			limit = {
+				part_of_sphere = yes
+				1566 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = QNG
+					value = -100
+				}
+			}
+		}
+		QIN = {
+			limit = {
+				part_of_sphere = yes
+				1569 = { owner = { part_of_sphere = no } }
+			}
+			sphere_owner = {
+				diplomatic_influence = {
+					who = QIN
+					value = -100
+				}
+			}
+		}
+	}
+}

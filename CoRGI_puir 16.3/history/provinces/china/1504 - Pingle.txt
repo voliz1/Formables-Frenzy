@@ -1,0 +1,9 @@
+owner = BEI
+controller = BEI
+add_core = BEI
+#add_core = CHI
+#add_core = TPG
+#add_core = GXI
+trade_goods = cotton
+life_rating = 32
+

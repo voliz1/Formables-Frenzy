@@ -1,0 +1,50 @@
+
+
+#========================= H E A D E R =========================
+
+capital = 1493
+primary_culture = nanfaren
+culture = manchu
+culture = beifaren
+religion = mahayana
+government = absolute_monarchy
+plurality = 1
+nationalvalue = nv_order
+literacy = 0.02
+non_state_culture_literacy = 0.02
+prestige = 0
+schools = traditional_academic
+oob = "MAC.txt"
+
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = generic_conservative
+upper_house = {
+fascist = 0
+reactionary = 40
+conservative = 60
+socialist = 0
+communist = 0
+liberal = 0
+anarcho_liberal = 0
+}
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+health_care = no_health_care
+school_reforms = no_schools
+
+set_country_flag = treaty_port_nation
+
+is_releasable_vassal = no

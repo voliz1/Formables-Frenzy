@@ -1,0 +1,59 @@
+;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+Congress_CLM_title;Hold the Congress over Columbia;;;;;;;;;;;;x;;;
+Congress_CLM_desc;Now that the war for independence is over, we should try to intergrate the rest of our countries' disenfranchised peoples with a congress where everybody can be heard, and a constitution can be crafted.;;;;;;;;;;;;x;;;
+integrate_rhenish_CAE_title;Intergrate Rhenish;;;;;;;;;;;;x;;;
+integrate_rhenish_CAE_desc;Now that we've expanded into the Rhine, we should focus on intergrating the local population into the greater Elbian Confederation.;;;;;;;;;;;;x;;;
+integrate_greeks_title;Give Concessions to the Greeks;;;;;;;;;;;;x;;;
+integrate_greeks_desc;Greece has long been a unstable and troubling part of Venice, if we were to give them some concessions and political representation it would go a long way to fully intergrate them.;;;;;;;;;;;;x;;;
+erase_LOT_title;Intergrate the Lotharians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+erase_LOT_desc;In our quest for the unification of Ameriga, we have fully incorporated the former lands of Lotharingia. We can now try to persuade the local population to embrace the Amerigan Dream.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Manifest_destiny_LOT_title; Northern Ambitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Manifest_destiny_LOT_desc; Now that we've reclaimed Atlanta and secured our positon as an amerigan power, high spheres of influence are now pushing for further expansion into Amazonie, some are even proposing a federation between them!  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+erase_AMA_title;Intergrate the Amazonians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+erase_AMA_desc;In our quest for the unification of Ameriga, we have fully incorporated the former lands of Amazonie. We can now try to persuade the local population to embrace the Amerigan Dream.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BTV_immigration;Pan-Boer Dream;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BTV_immigration_desc;The Pan-Boer Dream is attracting immigrants from all over the world!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+venetians_culture_non_ITA_title;Integration of the Venetians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+venetians_culture_non_ITA_desc;With control over Venice proper, we are now able to integrate and unite with our Venetian brothers in our quest for a united Italy!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME100014;The Literacy of the Pomeranians;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC100014;Through integration the literacy of the Pomeranians has increased, but they are not fully integrated yet.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA100014;You can never be too educated.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME100015;The Literacy of the Rheinish;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC100015;Through integration the literacy of the Rheinish has increased, but they are not fully integrated yet.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA100015;You can never be too educated.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+reclaim_islam_title;Re-Establish Islam in the Middle East;;;;;;;;;;;;x;;;
+reclaim_islam_desc;Since the Janissaries took power we can propose a policy of Re-establishing the Islamic institution in the Middle East, and hopefully gain the support of the local Arabs!;;;;;;;;;;;;x;;;
+reclaim_islam_2_title;Declare Ourselves the Leaders of Islam;;;;;;;;;;;;x;;;
+reclaim_islam_2_desc;Now with complete control over Mecca and Medina, the heartland of Islam, aswell as the surrounding territories with little opposition we can finally declare ourselves the leaders of Islam!;;;;;;;;;;;;x;;;
+EVTNAME650296;English Nationalism Reignited;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC650296;English nationalism have reignited in our recently conquered territories in the isles!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA650296;They better not cause trouble.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME650297;English Nationalism Supressed;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC650297;English nationalism have been supressed in our recently reconquered territories in the isles!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA650297;It better stay that way.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME650298;French Nationalism Reignited;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC650298;French nationalism have reignited in our recently conquered territories in France!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME650299;French Nationalism Supressed;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC650299;French nationalism have been supressed in our recently reconquered territories in France!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME145960;Gold Mine Sabotaged!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC145960;The Chinese have sabotaged their own gold mine before we took control, rendering it unusable!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA145960;Bastards!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME145961;Gold Mine Discovered!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC145961;A new gold mine has been discovered in $PROVINCENAME$!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA145961;Lets get to work!!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+interwar_warfare;Interwar Warfare;;;;;;;;;x;;;;
+interwar_warfare_desc;The age of interwar warfare has begun, allowing more frontage.;;;;;;;;;x;;;;
+interwar_warfare_2;Interwar Warfare 1925;;;;;;;;;x;;;;
+interwar_warfare_2_desc;The age of interwar warfare has continued, allowing more frontage.;;;;;;;;;x;;;;
+recently_demoted;Recently Fired Bureaucrats;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+recently_demoted_desc;We have recently fired unaccepted bureaucrats to save on our administrative spending.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+demote_crats_title;Fire All Minority Bureaucrats;;;;;;;;;;;;;x
+demote_crats_desc;Fire all minority bureaucrats and demote them to farmers and labourers, however this may affect our administrative effiency short-term.;;;;;;;;;;;;;x
+gtfo_kiddo_title;Kick All Players not Allied to You;;;;;;;;;;;;;x
+gtfo_kiddo_desc;Does what it says.;;;;;;;;;;;;;x
+ally_all_players_title;Ally All Player Countries in the Game;;;;;;;;;;;;;x
+ally_all_players_desc;Does what it says.;;;;;;;;;;;;;x
+end_all_wars_title;Ends All Wars Against You;;;;;;;;;;;;;x
+end_all_wars_desc;Does what it says.;;;;;;;;;;;;;x
+authorize_gas_warfare_title;Authorize Chemical Warfare;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+authorize_gas_warfare_desc;New discoveries and inventions has allowed us to produce chemical weapons for the battlefield, at a cost. \n§RRTaking this decision will enable Gas Attack which gives a +1 roll to every battle, but increases land supply costs by 50%, and cannot be undone.§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

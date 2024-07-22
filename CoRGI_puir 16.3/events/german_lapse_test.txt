@@ -1,0 +1,371 @@
+#German Lapse 1/2
+country_event = {
+	id = 954954
+	title = "EVTNAME954954"
+	desc = "EVTDESC954954"
+
+	picture = "Rebellion"
+
+	trigger = {
+		in_sphere = PRU
+		primary_culture = north_german
+		NOT = { total_pops = 125000 }
+	}
+
+	mean_time_to_happen = {
+		months = 200
+#		modifier = {
+#		    factor = 0.9
+#		    has_global_flag = prussia_nv_diplomacy
+#		}
+		modifier = {
+			factor = 0.7
+			year = 1840
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 0.4
+			year = 1845
+			NOT = {
+				year = 1848
+			}
+		}
+		modifier = {
+			factor = 0.12
+			year = 1848
+			NOT = {
+				year = 1860
+			}
+		}
+		modifier = {
+			factor = 0.01
+			year = 1860
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+
+	option = {
+		name = "Nooo!"
+		PRU = {
+			country_event = { id=954955 days=0 }
+		}
+		all_core = {
+			add_core = PRU
+			remove_core = THIS
+		}
+	}
+}
+
+#German Lapse 1/2 Major
+country_event = {
+	id = 954965
+	title = "EVTNAME954965"
+	desc = "EVTDESC954965"
+
+	picture = "Rebellion"
+
+	trigger = {
+		in_sphere = PRU
+		primary_culture = north_german
+		total_pops = 125000
+	}
+
+	mean_time_to_happen = {
+		months = 300
+	modifier = {
+			factor = 0.7
+			year = 1840
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 0.4
+			year = 1845
+			NOT = {
+				year = 1848
+			}
+		}
+		modifier = {
+			factor = 0.12
+			year = 1848
+			NOT = {
+				year = 1860
+			}
+		}
+		modifier = {
+			factor = 0.01
+			year = 1860
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+
+	option = {
+		name = "Nooo!"
+		PRU = {
+			country_event = { id=954966 days=0 }
+		}
+		all_core = {
+			add_core = PRU
+			remove_core = THIS
+		}
+	}
+}
+
+#German Lapse 2/2 Minor
+country_event = {
+	id = 954955
+	title = "EVTNAME954955"
+	desc = "EVTDESC954955"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very Good!"
+		inherit = FROM
+	}
+}
+
+#German Lapse 2/2 Major
+country_event = {
+	id = 954966
+	title = "German Sphereling Annexation"
+	desc = "Another component of the wider German Nation has chosen to align themselves with our cause!"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very Good!"
+		inherit = FROM
+	}
+}
+
+
+#Prussian Alignment 1/2
+country_event = {
+	id = 954957
+	title = "EVTNAME954957"
+	desc = "EVTDESC954957"
+	picture = "Rebellion"
+	
+	trigger = {
+	    in_sphere = PRU
+		primary_culture = north_german
+		NOT = {
+			has_country_modifier = prussian_influence
+		}
+		NOT = {
+			has_country_flag = prussian_influence_present
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Oh, dear!"
+		add_country_modifier = {
+			name = prussian_influence
+			duration = 3650
+		}
+		set_country_flag = prussian_influence_present
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+#Prussian Alignment 2/2
+country_event = {
+	id = 954958
+	title = "EVTNAME954958"
+	desc = "EVTDESC954958"
+	picture = "Rebellion"
+	
+	trigger = {
+	    in_sphere = PRU
+		primary_culture = north_german
+		NOT = {
+			has_country_modifier = prussian_influence
+			has_country_flag = prussian_dominance
+		}
+		has_country_flag = prussian_influence_present
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Let us bargain for autonomy."
+		set_country_flag = prussian_dominance
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+#Free From Prussian Alignment
+country_event = {
+	id = 954959
+	title = "EVTNAME954959"
+	desc = "EVTDESC954959"
+	picture = "Rebellion"
+	trigger = {
+	    NOT = {
+		    in_sphere = PRU
+		}
+		primary_culture = north_german
+		has_country_modifier = prussian_influence
+		has_country_flag = prussian_influence_present
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "It is what it is."
+		remove_country_modifier = prussian_influence
+		remove_country_flag = prussian_influence_present
+		remove_country_flag = prussian_dominance
+		ai_chance = {
+			factor = 1.0
+		}
+	}
+}
+
+#Forced Political Integration With Prussia Eventchain
+#Selecting country to integrate
+country_event = {
+	id = 954960
+	title = "EVTNAME954960"
+	desc = "EVTDESC954960"
+	picture = "Rebellion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Send out a delegation."
+		random_country = {
+			limit = {
+				has_country_flag = prussian_dominance
+				war = no
+			}
+			country_event = 954961
+		}
+    }
+}
+
+country_event = {
+	id = 954961
+	title = "EVTNAME954961"
+	desc = "EVTDESC954961"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Nooo!"
+		PRU = {
+			country_event = { id=954962 days=0 }
+		}
+		all_core = {
+			add_core = PRU
+			remove_core = THIS
+		}
+	}
+}
+
+country_event = {
+	id = 954962
+	title = "German Sphereling Annexation"
+	desc = "Another component of the wider German Nation has chosen to align themselves with our cause!"
+
+	picture = "Rebellion"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Very Good!"
+		inherit = FROM
+	}
+}
+
+#Prussia has nv_diplomacy flag event chain
+#country_event = {
+#	title = "Prussia has nv_diplomacy flag"
+#	desc = "The diplomacy national value lowers the MTTH to annex North German Spheres by 10%."
+#	picture = "Celebration"
+#
+#	id = 954963
+#	trigger = {
+#		tag = PRU
+#		OR = {
+#		      has_country_flag = nv_diplomacy
+#			  nationalvalue = nv_diplomacy
+#	    }
+#		NOT = { has_global_flag = prussia_nv_diplomacy }
+#	}
+#		
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {				
+#		name = "Good"
+#		set_global_flag = prussia_nv_diplomacy
+#	}
+#}
+#
+#country_event = {
+#	title = "Deemphasis On Our Diplomatic Corps"
+#	desc = "Our priorites has changed."
+#	picture = "Celebration"
+#
+#	id = 954964
+#	trigger = {
+#		tag = PRU
+#		NOT = { nationalvalue = nv_diplomacy }
+#		has_global_flag = prussia_nv_diplomacy
+#	}
+#		
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {				
+#		name = "So be it."
+#		clr_global_flag = prussia_nv_diplomacy
+#	}
+#}
+#
+# Doctrine of Lapse 3/2 Reference in on_actions file for yearly pulse
+#country_event = {
+#	id = 954956
+#	title = "German Lapse Flag Clear"
+#	desc = "Yearly Clear of Flag for timer balance."
+#
+#	picture = "Rebellion"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "W.e dude"
+#		clr_global_flag = german_lapse
+#	}
+#}
