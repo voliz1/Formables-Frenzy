@@ -24,7 +24,7 @@ sea_starts = {
 	3299 3300 
 }
     
-definitions = "../mod/CoRGI_puir 16.3/map/definition.csv"
+definitions = "../mod/Formables Frenzy 0.1/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
