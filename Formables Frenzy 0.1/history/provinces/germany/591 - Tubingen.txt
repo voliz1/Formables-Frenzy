@@ -1,6 +1,6 @@
-owner = WUR
-controller = WUR
-add_core = WUR
+owner = SWI
+controller = SWI
+add_core = SWI
 #add_core = GER
 trade_goods = grain
 life_rating = 38

@@ -1,8 +1,8 @@
-owner = BEL
-controller = BEL
-add_core = BEL
+owner = WLL
+controller = WLL
+add_core = WLL
 add_core = NET
-#add_core = WLL
+add_core = BEL
 trade_goods = coal
 life_rating = 36
 1861.1.1 = { 

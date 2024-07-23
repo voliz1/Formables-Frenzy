@@ -1,6 +1,5 @@
-owner = SPA
-controller = SPA
-add_core = SPA
+owner = MOR
+controller = MOR
 add_core = MOR
 trade_goods = sulphur
 life_rating = 35

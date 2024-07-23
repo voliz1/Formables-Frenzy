@@ -1,6 +1,6 @@
-owner = LCT
-controller = LCT
-add_core = LCT
+owner = SWI
+controller = SWI
+add_core = SWI
 trade_goods = precious_metal
 life_rating = 38
 

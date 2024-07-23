@@ -1,6 +1,6 @@
-owner = FRA
-
-controller = FRA
+owner = WLL
+controller = WLL
+add_core = WLL
 
 add_core = FRA
 

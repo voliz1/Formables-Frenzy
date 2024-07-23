@@ -1,5 +1,6 @@
-owner = SAR
-controller = SAR
+owner = VEN
+controller = VEN
+add_core = VEN
 add_core = SAR
 #add_core = ITA
 

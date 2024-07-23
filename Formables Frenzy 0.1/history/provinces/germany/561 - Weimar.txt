@@ -1,6 +1,6 @@
-owner = WEI
-controller = WEI
-add_core = WEI
+owner = SAX
+controller = SAX
+add_core = SAX
 #add_core = GER
 trade_goods = sulphur
 life_rating = 38

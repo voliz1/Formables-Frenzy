@@ -1,5 +1,6 @@
-owner = MOD
-controller = MOD
+owner = PAP
+controller = PAP
+add_core = PAP
 add_core = MOD
 #add_core = ITA
 

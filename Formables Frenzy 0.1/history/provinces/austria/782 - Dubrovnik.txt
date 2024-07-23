@@ -1,6 +1,6 @@
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = VEN
+controller = VEN
+add_core = VEN
 add_core = CRO
 
 trade_goods = fish

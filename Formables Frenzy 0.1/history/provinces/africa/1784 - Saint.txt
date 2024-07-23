@@ -1,5 +1,6 @@
-owner = FRA
-controller = FRA
+owner = MOR
+controller = MOR
+add_core = MOR
 naval_base = 1
 trade_goods = fruit
 life_rating = 30

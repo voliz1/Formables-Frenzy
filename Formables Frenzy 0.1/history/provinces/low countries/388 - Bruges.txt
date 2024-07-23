@@ -1,8 +1,6 @@
-owner = BEL
-controller = BEL
-add_core = BEL
+owner = NET
+controller = NET
 add_core = NET
-add_core = FLA
 trade_goods = grain
 life_rating = 36
 naval_base = 1

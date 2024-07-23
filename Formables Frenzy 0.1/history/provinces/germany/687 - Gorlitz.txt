@@ -1,5 +1,6 @@
-owner = BOH
-controller = BOH
+owner = SAX
+controller = SAX
+add_core = SAX
 add_core = BOH
 #add_core = GER
 trade_goods = coal

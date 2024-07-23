@@ -8,3 +8,6 @@ life_rating = 25
 	life_rating = 30
 }
 
+owner = MOR
+controller = MOR
+add_core = MOR
