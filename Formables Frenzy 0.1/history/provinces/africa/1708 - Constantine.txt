@@ -1,6 +1,6 @@
-owner = ALD
-controller = ALD
-add_core = ALD
+owner = TRI
+controller = TRI
+add_core = TRI
 trade_goods = iron
 life_rating = 35
 1861.1.1 = {

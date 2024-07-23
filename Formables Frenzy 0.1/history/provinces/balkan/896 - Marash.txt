@@ -1,7 +1,7 @@
-owner = EGY
-controller = EGY
+owner = GRE
+controller = GRE
+add_core = GRE
 add_core = TUR
-add_core = ARM
 trade_goods = wool
 life_rating = 35
 1861.1.1 = {

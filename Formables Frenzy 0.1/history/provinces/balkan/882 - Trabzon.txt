@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = GEO
+controller = GEO
+add_core = GEO
 add_core = TUR
 trade_goods = cattle
 life_rating = 35

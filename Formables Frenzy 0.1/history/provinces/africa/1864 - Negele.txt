@@ -6,3 +6,6 @@ life_rating = 25
 	life_rating = 30
 }
 
+owner = ETH
+controller = ETH
+add_core = ETH

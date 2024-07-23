@@ -1,7 +1,7 @@
-owner = TUR
-controller = TUR
+owner = GEO
+controller = GEO
+add_core = GEO
 add_core = TUR
-add_core = IRQ
 trade_goods = sulphur
 life_rating = 35
 

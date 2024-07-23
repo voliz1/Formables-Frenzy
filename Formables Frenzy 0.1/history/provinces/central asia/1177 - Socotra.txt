@@ -1,6 +1,6 @@
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ETH
+controller = ETH
+add_core = ETH
 trade_goods = fish
 life_rating = 35
 
