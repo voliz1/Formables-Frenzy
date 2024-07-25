@@ -14,6 +14,65 @@ color2= { 69 157 208 }
 color3= { 137 183 124 }
 }
 
+# Burgundy
+BRG = {
+    color1= { 128 0 32  }
+    color2= { 128 0 32  }
+    color3= { 128 0 32  }
+}
+
+# Danubian Federation
+DNB = {
+    color1= { 232 75 56  }
+    color2= { 232 75 56  }
+    color3= { 232 75 56  }
+}
+
+# Dual Monarchy
+DUA = {
+    color1= { 46 0 108  }
+    color2= { 46 0 108  }
+    color3= { 46 0 108  }
+}
+
+# England
+ENL = {
+    color1= { 239  96  88  }
+    color2= { 239  96  88  }
+    color3= { 239  96  88  }
+}
+
+# Iberia
+IBE = {
+    color1= { 250  160  0  }
+    color2= { 250  160  0  }
+    color3= { 250  160  0  }
+}
+
+# Lotharingia
+LOT = {
+    color1= { 121  175  235  }
+    color2= { 121  175  235  }
+    color3= { 121  175  235  }
+}
+
+# Muscovy
+MUS = {
+    color1= { 100  181  75  }
+    color2= { 100  181  75  }
+    color3= { 100  181  75  }
+}
+
+# Occitania
+OCC = {
+    color1= { 85  0  68  }
+    color2= { 85  0  68  }
+    color3= { 85  0  68  }
+}
+
+
+
+
 
 # Finland
 FIN = {
@@ -524,7 +583,7 @@ SIC = {
     color3= { 131 101 85  }
 }
 
-# Siebenbürgen
+# Siebenbï¿½rgen
 SIE = {
     color1= { 75 111 205  }
     color2= { 124 140 162  }

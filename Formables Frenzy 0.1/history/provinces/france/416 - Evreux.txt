@@ -1,6 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = ENL
+controller = ENL
+add_core = ENL
 add_core = FRA
 trade_goods = cotton
 life_rating = 35

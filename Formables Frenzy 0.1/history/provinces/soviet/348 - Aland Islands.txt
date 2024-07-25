@@ -1,7 +1,8 @@
-owner = RUS
-controller = RUS
-add_core = FIN
+owner = DEN
+controller = DEN
+add_core = DEN
 add_core = SWE
+add_core = FIN
 trade_goods = fish
 life_rating = 35
 fort = 1

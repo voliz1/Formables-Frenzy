@@ -1,5 +1,6 @@
-owner = FRA
-controller = FRA
+owner = OCC
+controller = OCC
+add_core = OCC
 add_core = FRA
 add_core = CAT
 trade_goods = grain
