@@ -1,6 +1,7 @@
 trade_goods = grain
 life_rating = 15
 
-owner = ETH
-controller = ETH
+owner = ZAN
+controller = ZAN
+add_core = ZAN
 add_core = ETH

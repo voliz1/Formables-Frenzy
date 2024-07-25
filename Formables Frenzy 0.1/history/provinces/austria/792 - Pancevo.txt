@@ -1,5 +1,5 @@
-owner = SER
-controller = SER
+owner = HUN
+controller = HUN
 add_core = SER
 add_core = HUN
 

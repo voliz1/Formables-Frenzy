@@ -2,7 +2,6 @@ owner = FIN
 controller = FIN
 add_core = FIN
 add_core = RUS
-add_core = EST
 #add_core = UBD
 trade_goods = cattle
 life_rating = 35

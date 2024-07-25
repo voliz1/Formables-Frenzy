@@ -2,7 +2,7 @@ owner = ROM
 controller = ROM
 add_core = ROM
 add_core = RUS
-
+add_core = UKR
 trade_goods = fruit
 life_rating = 35
 1861.1.1 = {

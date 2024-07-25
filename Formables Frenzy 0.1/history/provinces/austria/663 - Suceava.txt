@@ -1,7 +1,6 @@
 owner = ROM
 controller = ROM
 add_core = ROM
-add_core = PLC
 #add_core = RUT
 #add_core = ROM
 

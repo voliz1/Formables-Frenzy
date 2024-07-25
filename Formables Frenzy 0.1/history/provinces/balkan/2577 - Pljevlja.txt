@@ -1,7 +1,6 @@
 owner = SER
 controller = SER
 add_core = SER
-add_core = MON
 
 trade_goods = iron
 life_rating = 35

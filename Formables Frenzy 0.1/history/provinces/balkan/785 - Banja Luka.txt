@@ -1,9 +1,7 @@
 owner = SER
 controller = SER
 add_core = SER
-add_core = BOS
 
-add_core = SER
 trade_goods = fish
 life_rating = 35
 

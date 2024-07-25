@@ -1,7 +1,6 @@
 owner = VEN
 controller = VEN
 add_core = VEN
-add_core = TUS
 #add_core = ITA
 
 trade_goods = coal

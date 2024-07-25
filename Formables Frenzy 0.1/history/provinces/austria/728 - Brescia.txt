@@ -2,7 +2,6 @@ owner = VEN
 controller = VEN
 add_core = VEN
 add_core = PAP
-add_core = LOM
 #add_core = ITA
 trade_goods = silk
 life_rating = 35

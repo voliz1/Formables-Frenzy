@@ -1,8 +1,6 @@
 owner = VEN
 controller = VEN
 add_core = VEN
-add_core = PAP
-add_core = PAR
 #add_core = ITA
 
 trade_goods = grain

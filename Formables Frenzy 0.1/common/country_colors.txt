@@ -183,7 +183,7 @@ WAL = {
 
 # Hungary
 HUN = {
-    color1= { 152 85 92  }
+    color1= { 186  88  58  }
     color2= { 197 92 106  }
     color3= { 119 151 122  }
 }
@@ -332,7 +332,7 @@ USA = {
 
 # Lithuania
 LIT = {
-    color1= { 154 69 116  }
+    color1= { 226 196 97  }
     color2= { 255 255 255  }
     color3= { 210 106 47  }
 }
@@ -346,7 +346,7 @@ LIB = {
 
 # Poland
 POL = {
-    color1= { 197 92 106  }
+    color1= { 196 72 138  }
     color2= { 69 157 208  }
     color3= { 187 79 86  }
 }
@@ -360,7 +360,7 @@ PRU = {
 
 # France
 FRA = {
-    color1= { 63 125 214  }
+    color1= { 37 63 196  }
     color2= { 129 177 125  }
     color3= { 121 162 109  }
 }
@@ -692,9 +692,9 @@ CRI = {
 
 # Georgia
 GEO = {
-    color1= { 36 132 247  }
-    color2= { 126 203 120  }
-    color3= { 48 164 51  }
+    color1= { 56 38 182  }
+    color2= { 56 38 182  }
+    color3= { 56 38 182  }
 }
 
 # Russia
@@ -706,7 +706,7 @@ RUS = {
 
 # Ukraine
 UKR = {
-    color1= { 124 183 151  }
+    color1= { 74 36 242  }
     color2= { 194 140 86  }
     color3= { 134 166 117  }
 }
@@ -755,9 +755,9 @@ BUR = {
 
 # Morocco FIXED
 MOR = {
-    color1= { 179 54 57  }
-    color2= { 123 16 21  }
-    color3= { 48 164 51  }
+    color1= { 49 99 37  }
+    color2= { 49 99 37  }
+    color3= { 49 99 37  }
 }
 
 # Egypt FIXED
