@@ -3304,7 +3304,6 @@ liberate_country= {
 							tag = AIT
 							tag = AUS
 							tag = PLC
-							tag = RUT
 						}
 					}
 				}

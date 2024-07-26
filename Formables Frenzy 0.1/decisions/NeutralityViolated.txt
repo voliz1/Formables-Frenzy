@@ -134,47 +134,7 @@ political_decisions = {
 			}
 		}
 	}
-	BEL_violate_neutrality = {
-		picture = declare_neutrality
-		alert = no
-		potential = {
-			ai = no
-			BEL = { 
-				NOT = { tag = THIS }
-				exists = yes 
-				has_country_modifier = generic_neutrality 
-			}
-		}
-		allow = {
-			BEL = { has_country_modifier = generic_neutrality }
-			war_policy = jingoism
-			NOT = { 
-				is_sphere_leader_of = BEL 
-				truce_with = BEL
-				alliance_with = BEL
-			}
-		}
-		effect = {
-			badboy = 15
-			BEL = { 
-				set_country_flag = neutrality_violated 
-				remove_country_modifier = generic_neutrality 
-				relation = { who = THIS value = -200 } 
-			}
-			diplomatic_influence = { who = BEL value = -200 }
-			any_country = {
-				limit = {
-					OR = {
-						alliance_with = BEL
-						is_sphere_leader_of = BEL
-						relation = { who = BEL value = 50 }
-					}
-				}
-				leave_alliance = THIS
-				relation = { who = THIS value = -200 }
-			}
-		}
-	}
+	
 	CAN_violate_neutrality = {
 		picture = declare_neutrality
 		alert = no
@@ -790,47 +750,7 @@ political_decisions = {
 			}
 		}
 	}
-	MOL_violate_neutrality = {
-		picture = declare_neutrality
-		alert = no
-		potential = {
-			ai = no
-			MOL = { 
-				NOT = { tag = THIS }
-				exists = yes 
-				has_country_modifier = generic_neutrality 
-			}
-		}
-		allow = {
-			MOL = { has_country_modifier = generic_neutrality }
-			war_policy = jingoism
-			NOT = { 
-				is_sphere_leader_of = MOL 
-				truce_with = MOL 
-				alliance_with = MOL 
-			}
-		}
-		effect = {
-			badboy = 15
-			MOL = { 
-				set_country_flag = neutrality_violated 
-				remove_country_modifier = generic_neutrality 
-				relation = { who = THIS value = -200 } 
-			}
-			diplomatic_influence = { who = MOL value = -200 }
-			any_country = {
-				limit = {
-					OR = {
-						alliance_with = MOL
-						is_sphere_leader_of = MOL
-						relation = { who = MOL value = 50 }
-					}
-				}
-				leave_alliance = THIS
-				relation = { who = THIS value = -200 }
-			}
-		}
-	}
+	
 	NET_violate_neutrality = {
 		picture = declare_neutrality
 		alert = no

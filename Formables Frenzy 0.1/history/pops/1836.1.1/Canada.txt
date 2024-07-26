@@ -418,7 +418,7 @@
         size = 1750
     }
 }
-#British Columbia Region : 64000
+#english Columbia Region : 64000
 #uncolonized in 1836
 #Vancouver (12000/3000 POPS)
 13 = {
