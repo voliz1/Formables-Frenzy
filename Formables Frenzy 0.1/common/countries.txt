@@ -15,6 +15,7 @@ DEN		= "countries/Denmark.txt"
 FIN		= "countries/Finland.txt"
 SCA		= "countries/Scandinavia.txt"
 SWE		= "countries/Sweden.txt"
+NSE		= "countries/North Sea Empire.txt"
 
 # Burgundy
 NET		= "countries/Netherlands.txt"

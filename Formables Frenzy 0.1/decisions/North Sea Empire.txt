@@ -1,0 +1,170 @@
+political_decisions = {
+	form_north_sea_empire = {
+		news = yes
+		potential = {
+			OR = {
+				is_culture_group = scandinavian
+				primary_culture = british
+			}
+			NOT = {
+				exists = NSE
+			}
+		}
+		
+		allow = {
+			313 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			372 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			300 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			291 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			290 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			281 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							overlord = {
+								tag = THIS
+							}
+						}
+					}
+				}
+			}
+			state_n_government = 1
+			war = no
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = NSE
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = british
+			ENG_280 = {
+				add_core = NSE
+			}
+			ENG_284 = {
+				add_core = NSE
+			}
+			ENG_291 = {
+				add_core = NSE
+			}
+			ENG_300 = {
+				add_core = NSE
+			}
+			ENG_277 = {
+				add_core = NSE
+			}
+			ENG_296 = {
+				add_core = NSE
+			}
+			HOL_369 = {
+				add_core = NSE
+			}
+			SCH_370 = {
+				add_core = NSE
+			}
+			DEN_367 = {
+				add_core = NSE
+			}
+			DEN_372 = {
+				add_core = NSE
+			}
+			SWE_313 = {
+				add_core = NSE
+			}
+			SWE_308 = {
+				add_core = NSE
+			}
+			SWE_329 = {
+				add_core = NSE
+			}
+			DEN_251 = {
+				add_core = NSE
+			}
+
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = scandinavian
+						primary_culture = british
+					}
+					OR = {
+						in_sphere = THIS
+						overlord = {
+							tag = THIS
+						}
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
