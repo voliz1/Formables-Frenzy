@@ -1,5 +1,6 @@
-owner = AUS
-controller = AUS
+owner = BOH
+controller = BOH
+add_core = BOH
 add_core = AUS
 trade_goods = sulphur
 life_rating = 35

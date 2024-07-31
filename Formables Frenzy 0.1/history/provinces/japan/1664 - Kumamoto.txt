@@ -1,5 +1,6 @@
-owner = JAP
-controller = JAP
+owner = PHL
+controller = PHL
+add_core = PHL
 add_core = JAP
 trade_goods = coal
 life_rating = 35

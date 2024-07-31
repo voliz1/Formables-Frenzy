@@ -1,12 +1,14 @@
 capital = 455
-primary_culture = provencal
+primary_culture = occitanian
+culture = french
+culture = catalan
 religion = protestant
 government = democracy
 plurality = 0.1
 nationalvalue = nv_equality
 literacy = 0.48
 civilized = yes
-
+prestige = 30
 
 # Political reforms
 slavery = no_slavery

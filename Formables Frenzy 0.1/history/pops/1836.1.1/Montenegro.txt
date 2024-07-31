@@ -65,31 +65,31 @@
 	}
 
 	aristocrats = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 75
 	}
 
 	soldiers = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 5825
 	}
@@ -156,31 +156,31 @@
 	}
 
 	aristocrats = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = bosniak
+		culture = albanian
 		religion = sunni
 		size = 3650
 	}

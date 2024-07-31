@@ -1,5 +1,6 @@
-owner = PAP
-controller = PAP
+owner = GEN
+controller = GEN
+add_core = GEN
 add_core = PAP
 #add_core = ITA
 

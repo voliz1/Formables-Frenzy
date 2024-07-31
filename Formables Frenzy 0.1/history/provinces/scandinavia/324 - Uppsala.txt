@@ -2,7 +2,7 @@ owner = DEN
 controller = DEN
 add_core = DEN
 add_core = SWE
-#add_core = SCA
+add_core = SCA
 trade_goods = iron
 life_rating = 35
 

@@ -3,25 +3,25 @@
 #Riga (220000/55000 POPS)
 354 = {
     clergymen = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 325
     }
 
     artisans = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 1500
     }
 
     soldiers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 400
     }
 
     farmers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 38775
     }
@@ -119,25 +119,25 @@
 #Valmeira (516000/129000 POPS)
 355 = {
     clergymen = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 1100
     }
 
     artisans = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 3350
     }
 
     soldiers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 1150
     }
 
     farmers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 106500
     }
@@ -253,25 +253,25 @@
 #Daugavpils (136000/34000 POPS)
 356 = {
     clergymen = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 175
     }
 
     artisans = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 650
     }
 
     soldiers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 250
     }
 
     farmers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 26675
     }
@@ -357,25 +357,25 @@
 #Jelgava (128000/32000 POPS)
 357 = {
     clergymen = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 225
     }
 
     artisans = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 250
     }
 
     soldiers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 250
     }
 
     farmers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 28275
     }
@@ -431,25 +431,25 @@
 #Ventspils (140000/35000 POPS) #uralic = Livonian
 358 = {
     clergymen = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 225
     }
 
     artisans = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 300
     }
 
     soldiers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 275
     }
 
     farmers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 29450
     }
@@ -511,25 +511,25 @@
 #Liepaja (96000/24000 POPS)
 359 = {
     clergymen = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 175
     }
 
     artisans = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 150
     }
 
     soldiers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 200
     }
 
     farmers = {
-        culture = latvian
+        culture = estonian
         religion = protestant
         size = 21475
     }

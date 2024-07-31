@@ -1,6 +1,5 @@
-owner = DAI
-controller = DAI
-add_core = DAI
+owner = CHI
+controller = CHI
 trade_goods = silk #grain
 life_rating = 32
 

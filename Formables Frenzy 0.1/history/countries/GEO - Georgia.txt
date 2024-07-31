@@ -1,5 +1,7 @@
 capital = 1095
 primary_culture = georgian
+culture = armenian
+culture = kurdish
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0

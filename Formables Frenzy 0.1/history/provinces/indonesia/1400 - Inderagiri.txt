@@ -1,7 +1,6 @@
-owner = NET
-controller = NET
-add_core = SAK
-#add_core = INO
+owner = JOH
+controller = JOH
+add_core = JOH
 trade_goods = grain
 life_rating = 35 #30
 colonial = 2

@@ -1,7 +1,6 @@
 owner = WLL
 controller = WLL
 add_core = WLL
-add_core = NET
 add_core = FRA
 trade_goods = iron
 life_rating = 32

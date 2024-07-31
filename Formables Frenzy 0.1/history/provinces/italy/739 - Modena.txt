@@ -1,6 +1,6 @@
-owner = PAP
-controller = PAP
-add_core = PAP
+owner = GEN
+controller = GEN
+add_core = GEN
 #add_core = ITA
 
 trade_goods = coal

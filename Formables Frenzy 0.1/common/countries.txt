@@ -26,6 +26,7 @@ LOT		= "countries/Lotharingia.txt"
 #France
 FRA		= "countries/France.txt"
 OCC 	= "countries/Occitania.txt"
+ORL 	= "countries/Orleans.txt"
 
 # British isles
 ENG		= "countries/United Kingdom.txt"
@@ -35,13 +36,13 @@ SCO		= "countries/Scotland.txt"
 ENL		= "countries/England.txt"
 
 # Western Europe
-CAT		= "countries/Catalonia.txt"
 
 
 #Iberia
 SPA		= "countries/Spain.txt"
 POR		= "countries/Portugal.txt"
 IBE		= "countries/Iberia.txt"
+CAT		= "countries/Catalonia.txt"
 
 # Germany
 PRU		= "countries/Prussia.txt"
@@ -50,6 +51,8 @@ AUS		= "countries/Austria.txt"
 DNB		= "countries/Danubian Federation.txt"
 SGF		= "countries/South German Fed.txt"
 NGF		= "countries/North German Fed.txt"
+
+RHI		= "countries/Rhineland.txt"
 
 BAV		= "countries/Bavaria.txt"
 HAN		= "countries/Hanover.txt"
@@ -63,6 +66,7 @@ ITA		= "countries/Italy.txt"
 PAP		= "countries/Papal States.txt"
 SIC		= "countries/Two Sicilies.txt"
 VEN		= "countries/Venice.txt"
+GEN 	= "countries/Genoa.txt"
 
 #Russia
 RUS		= "countries/Russia.txt"
@@ -119,6 +123,8 @@ KOK		="countries/Kokand.txt"
 MUG		="countries/Mughalistan.txt"
 NEJ		="countries/Nejd.txt"
 PER		="countries/Persia.txt"
+
+ASY 	= "countries/Assyria.txt"
 
 # India
 HND 	="countries/India.txt"

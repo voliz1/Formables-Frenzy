@@ -1,5 +1,5 @@
-owner = NEJ
-controller = NEJ
+owner = GEO
+controller = GEO
 add_core = NEJ
 trade_goods = fruit
 life_rating = 35

@@ -2,7 +2,6 @@ owner = ENL
 controller = ENL
 add_core = ENL
 add_core = ENG
-add_core = IRE
 trade_goods = iron
 life_rating = 38
 1861.1.1 = { railroad = 3 }

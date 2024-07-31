@@ -66,3 +66,35 @@ DNB_proletarian_dictatorship;Danubian Republic;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;
 DNB_fascist_dictatorship;Danubian Republic;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 DNB_presidential_dictatorship;Danubian Republic;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 DNB_bourgeois_dictatorship;Danubian Republic;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ASY;Assyria;;;;;;;;;;;;x
+ASY_ADJ;Assyrian;;;;;;;;;;;;x
+ASY_fascist_dictatorship;Aramaea;;;;;;;;;;;;x
+ASY_fascist_dictatorship_ADJ;Aramaic;;;;;;;;;;;;x
+GEN;Genoa;;;;;;;;;;;;;x
+GEN_absolute_monarchy;Genoa;;;;;;;;;;;;;x
+GEN_ADJ;Genoese;;;;;;;;;;;;;x
+GEN_democracy;Genoa;;;;;;;;;;;;x
+GEN_fascist_dictatorship;Genoa;;;;;;;;;;;;;x
+GEN_hms_government;Genoa;;;;;;;;;;;;;x
+GEN_presidential_dictatorship;Ligurian Republic;;;;;;;;;;;;;x
+GEN_proletarian_dictatorship;Genoa;;;;;;;;;;;;x
+GEN_prussian_constitutionalism;Genoa;;;;;;;;;;;;;x
+RHI;Rhineland;Rhénanie;Rheinland;;Rhineland;;;;;;;;;x
+RHI_ADJ;Rhinelander;Rhénan;Rheinlander;;Rhinelander;;;;;;;;;x
+RHI_anarcho_liberal;Radical Arbeiterpartei;Arbeiterpartei radical;Radikale Arbeiterpartei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_communist;Communist Arbeiterpartei;Arbeiterpartei communiste;Kommunistische Arbeiterpartei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_conservative;Zentrumspartei;Zentrumspartei;Zentrumspartei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_conservative_2;Konservative Partei;Konservative Partei;Konservative Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_conservative_3;Christsoz. Arbeiterpartei;Christsoz. Arbeiterpartei;Christsoz. Arbeiterpartei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_fascist;NSDP;NSDP;NSDP;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_liberal;Liberaldem. Partei;Liberaldem. Partei;Liberaldem. Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_liberal_2;Nationalliberale ;Nationalliberale ;Nationalliberale ;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_liberal_3;Freisinnige Partei;Freisinnige Partei;Freisinnige Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_reactionary;Nationale Partei;Nationale Partei;Nationale Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_socialist;Deutscher Arbeiterverein;Deutscher Arbeiterverein;Deutscher Arbeiterverein;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_socialist_2;Sozialdem. Arbeiterpartei ;Sozialdem. Arbeiterpartei ;Sozialdem. Arbeiterpartei ;;;;;;;;;;;;x;;;;;;;;;;;;;;
+RHI_socialist_3;Sozial. Arbeiterpartei ;Sozial. Arbeiterpartei ;Sozial. Arbeiterpartei ;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ORL;Orleans;x                                                  
+ORL_ADJ;Orleanais;x                                            
+ORL_reactionary;Orléanistes;x;       
+ORL_conservative_2;Conservatifs Révolutionaires;x

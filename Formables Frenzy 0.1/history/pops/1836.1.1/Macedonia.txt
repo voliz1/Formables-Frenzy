@@ -3,31 +3,31 @@
 #Skopje (424000/106000 POPS)
 806 = {
     aristocrats = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 2450
     }
 
     clergymen = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 325
     }
 
     artisans = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 2000
     }
 
     soldiers = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 3000
     }
 
     farmers = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 25225
     }
@@ -109,43 +109,43 @@
     }
 
     aristocrats = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 1500
     }
 
     bureaucrats = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 1125
     }
 
     officers = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 175
     }
 
     clergymen = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 1300
     }
 
     soldiers = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 1100
     }
 
     farmers = {
-        culture = turkish
+        culture = bulgarian
         religion = sunni
         size = 1975
     }

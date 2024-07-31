@@ -2,6 +2,7 @@ owner = FIN
 controller = FIN
 add_core = FIN
 add_core = RUS
+add_core = SCA
 trade_goods = sulphur
 life_rating = 35
 

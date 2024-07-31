@@ -3,43 +3,43 @@
 #Sarajevo (148000/37000 POPS)
 783 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 650
     }
 
     bureaucrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 1375
     }
 
     officers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 225
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 200
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 4000
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 275
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 15575
     }
@@ -101,31 +101,31 @@
 #Bihac (100000/25000 POPS)
 784 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 400
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 175
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 750
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 250
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 16425
     }
@@ -175,31 +175,31 @@
 #Banja Luka (116000/29000 POPS)
 785 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 500
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 800
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 100
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 4550
     }
@@ -255,31 +255,31 @@
 #Tuzla (168000/42000 POPS)
 786 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 700
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 175
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 1150
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 250
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 14725
     }
@@ -335,31 +335,31 @@
 #Foca (92000/23000 POPS)
 787 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 400
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 75
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 600
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 100
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 5825
     }
@@ -391,31 +391,31 @@
 #Mostar (104000/26000 POPS)
 788 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 450
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 50
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 600
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 50
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 3850
     }
@@ -471,31 +471,31 @@
 #Livno (136000/34000 POPS)
 789 = {
     aristocrats = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 350
     }
 
     clergymen = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 25
     }
 
     artisans = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 250
     }
 
     soldiers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 50
     }
 
     farmers = {
-        culture = bosniak
+        culture = albanian
         religion = sunni
         size = 1350
     }

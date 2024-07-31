@@ -1,5 +1,6 @@
-owner = VEN
-controller = VEN
+owner = GEN
+controller = GEN
+add_core = GEN
 add_core = VEN
 add_core = AUS
 trade_goods = grain

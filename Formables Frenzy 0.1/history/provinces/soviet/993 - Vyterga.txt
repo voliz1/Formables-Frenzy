@@ -1,7 +1,8 @@
-owner = FIN
-controller = FIN
-add_core = FIN
+owner = MUS
+controller = MUS
+add_core = MUS
 add_core = RUS
+add_core = FIN
 trade_goods = timber
 life_rating = 35
 

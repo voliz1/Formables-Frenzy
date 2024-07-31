@@ -9,7 +9,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 2250
     }
@@ -141,43 +141,43 @@
     }
 
     aristocrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 1250
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 1375
     }
 
     officers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 150
     }
 
     clergymen = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 150
     }
 
     artisans = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 1100
     }
 
     soldiers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 15175
     }
 
     farmers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 13000
     }
@@ -233,31 +233,31 @@
     }
 
     aristocrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 300
     }
 
     clergymen = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 2450
     }
@@ -367,25 +367,25 @@
     }
 
     clergymen = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 2750
     }
@@ -571,37 +571,37 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 1250
     }
 
     clergymen = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 275
     }
 
     officers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 150
     }
 
     artisans = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 1250
     }
 
     soldiers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 250
     }
 
     farmers = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 22925
     }

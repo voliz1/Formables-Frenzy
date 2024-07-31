@@ -1,6 +1,5 @@
-owner = DAI
-controller = DAI
-add_core = DAI
+owner = PHL
+controller = PHL
 trade_goods = timber
 life_rating = 32
 

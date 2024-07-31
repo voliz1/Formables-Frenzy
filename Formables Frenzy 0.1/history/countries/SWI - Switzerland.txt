@@ -1,12 +1,17 @@
 capital = 605
 primary_culture = swiss
+culture = rhenish
+culture = occitanian
+culture = north_italian
+culture = south_german
+culture = burgundian
 religion = protestant
 government = democracy
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.7
 civilized = yes
-prestige = 5
+prestige = 36
 
 # Political reforms
 slavery = no_slavery

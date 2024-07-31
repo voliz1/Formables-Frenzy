@@ -1,6 +1,6 @@
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = GEN
+controller = GEN
+add_core = GEN
 #add_core = ITA
 
 trade_goods = iron

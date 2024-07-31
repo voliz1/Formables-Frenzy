@@ -1,5 +1,6 @@
-owner = ENG
-controller = ENG
+owner = MAD
+controller = MAD
+add_core = MAD
 naval_base = 1
 trade_goods = fruit
 life_rating = 35

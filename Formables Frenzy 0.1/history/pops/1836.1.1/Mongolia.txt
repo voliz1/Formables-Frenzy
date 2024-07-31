@@ -360,34 +360,34 @@
 		size = 10975
 	}
 }
-#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan   
+#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  mongol = Tuvan   
 1469 = {
 	aristocrats = {
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 		size = 150
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 		size = 75
 	}
 
 	artisans = {
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 		size = 400
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 		size = 75
 	}
 
 	farmers = {
-		culture = tatar
+		culture = mongol
 		religion = gelugpa
 		size = 7300
 	}

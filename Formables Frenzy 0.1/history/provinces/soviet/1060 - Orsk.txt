@@ -1,6 +1,6 @@
-owner = MUS
-controller = MUS
-add_core = MUS
+owner = KOK
+controller = KOK
+add_core = KOK
 add_core = RUS
 trade_goods = iron
 life_rating = 35

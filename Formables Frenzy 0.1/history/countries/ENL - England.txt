@@ -1,12 +1,13 @@
 capital = 300
 primary_culture = english
+culture = scottish
 religion = protestant
 government = hms_government
 plurality = 5
 nationalvalue = nv_order
 literacy = 0.55
 civilized = yes
-
+prestige = 30
 
 # Political reforms
 slavery = no_slavery

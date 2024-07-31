@@ -2,6 +2,7 @@ owner = SPA
 controller = SPA
 add_core = SPA
 add_core = POR
+add_core = MOR
 trade_goods = coal #grain
 life_rating = 35
 naval_base = 1

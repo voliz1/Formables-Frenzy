@@ -1,6 +1,7 @@
 capital = 549
 primary_culture = north_german
 culture = south_german
+culture = rhenish
 culture = ashkenazi
 religion = protestant
 government = absolute_monarchy
@@ -12,7 +13,7 @@ civilized = yes
 
 
 #GreaterPowers = prestige
-prestige = 50
+prestige = 31
 
 # Political reforms
 slavery = no_slavery

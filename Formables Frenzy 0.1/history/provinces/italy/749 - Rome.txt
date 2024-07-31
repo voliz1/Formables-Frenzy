@@ -1,5 +1,6 @@
-owner = PAP
-controller = PAP
+owner = SIC
+controller = SIC
+add_core = SIC
 add_core = PAP
 #add_core = ITA
 

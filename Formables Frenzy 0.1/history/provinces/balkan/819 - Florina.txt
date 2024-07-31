@@ -1,5 +1,6 @@
-owner = GRE
-controller = GRE
+owner = BUL
+controller = BUL
+add_core = BUL
 add_core = GRE
 trade_goods = coal
 life_rating = 35
